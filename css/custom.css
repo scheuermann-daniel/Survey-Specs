@@ -1,0 +1,409 @@
+:root {
+    --foam: #43a4ff;
+
+    --darkBlue: hsl(234, 12%, 34%);
+    --grayBlue: hsl(229, 6%, 66%);
+    --lightGray: hsl(0, 0%, 98%);
+
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+html {
+    background-color: var(--lightGray);
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+fieldset {
+    border: 0;
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    nav {
+        width: 90%;
+        text-align: center;
+    }
+
+    nav a {
+        margin-left: 0.75em;
+        margin-right: 0.75em;
+        text-align: center;;
+    }
+}
+
+@media (max-width: 500px) {
+
+    nav a {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .overlay {
+        padding: 3.5em;
+    }
+}
+
+@media (max-width: 500px) {
+    .overlay {
+        padding: 2em;
+    }
+
+    .ulNav {
+        list-style-type: none;
+        padding: 1em;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .liNav {
+        list-style-type: flex;
+        display:block;
+        float: left;
+        clear: left;
+        margin: 5px;
+    }
+    
+    .aNav {
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 1.4em;
+    }
+
+    nav {
+        text-align: center;
+    }
+}
+
+.headerTxt {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.headerTxt2 {
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 7.4px;
+}
+
+/** Footer */
+
+footer {
+    margin: auto;
+    border-top: 2px solid black;
+    text-align: center;
+    background: rgb(228, 228, 228);
+    margin-bottom: 0;
+    padding:0.2em;
+}
+
+.arraySection, .table, main, .error-text {
+    margin: 2em auto;
+    text-align: center;
+}
+
+/* Form Cards */
+
+.box p {
+    color: #2F2F2F;
+}
+
+.box {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayBlue);
+    padding: 25px;
+    margin: 40px auto;  
+    height: auto;
+}
+
+.longbox {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px -10px var(--grayBlue);
+    padding: 10px;
+    margin: 40px auto;  
+    height: auto;
+    width:80%;
+}
+
+.fillBox {
+    background-color: white;
+    border-top: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px -10px var(--grayBlue);
+    margin: auto;  
+    height: 100%;
+    width:100%;
+}
+
+@media (min-width: 450px) {
+    .box {
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: auto;
+    }
+}
+
+.seafoam {
+    border-top: 3px solid var(--foam);
+}
+
+.black {
+    border-top: 3px solid black;
+}
+
+.orange {
+    border-top: 3px solid darkorange;
+    color: #2F2F2F;
+    font-size: 1.375em;
+    text-transform: capitalize;
+}
+
+@media (min-width: 950px) {
+
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 20%;
+     
+    }
+    .header p {
+        width: 30%;
+    }
+    
+}
+
+.otherSurveys {
+    margin-top: 3em;
+}
+
+p {
+    text-indent: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+    text-align: center;
+}
+
+.noteHead {
+    margin-top: 2em;
+    font-size: 2.5em;
+}
+
+.h1FormHeader {
+    font-size:3em;
+    margin: 0;
+}
+
+.pFormHeader {
+    margin: .5em auto 1em auto;
+}
+
+.subHead {
+    font-size: 1.5em;
+}
+
+.h1Header {
+    font-size: 5em;
+    font-weight: 1;
+    color: white;
+    margin: 0;
+}
+
+.alignTop {
+    margin-top: 0;
+}
+
+.noteText {
+    margin-top: 1.5em;
+}
+
+.pHeader {
+    color: white;
+    line-height: .5;
+    margin-top:5%;
+}
+
+.sectionHead {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.headText {
+    text-align: center;
+}
+
+.sectionSlide {
+    width: 100%;
+    height: 8vh;
+    background-color:lightgrey;
+}
+
+.sectionAbout {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.ulNav {
+    list-style-type: none;
+    padding: .5em;
+}
+
+.liNav {
+    list-style-type: none;
+    float: left;
+}
+
+.aNav {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 2.5em;
+    font-size: 1.4em;
+}
+
+.activePage {
+    color: darkorange;
+}
+
+.author {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(auto);
+}
+
+.authorImg {
+    height: 25vh;
+    margin: auto 1em;
+    object-fit: cover;
+    border:5px solid black;
+}
+
+.authorInfo {
+    text-align: left;
+}
+
+.author {
+    margin-top: 5em;
+}
+
+#entries {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#entries td, #entries th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#entries tr:nth-child(even){background-color: #f2f2f2;}
+
+#entries th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.head {
+    text-decoration: none;
+    color: white; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: minmax(5em, auto);
+    gap: 2em;
+    width: 80%;
+    margin: 2em auto;
+}
+
+.recordsTable {
+    height:30em;
+    width: 100%;
+    grid-column: 2 / 4;
+    grid-row: 1/3;
+}
+
+.records {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.specsInfo {
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+}
+
+.charts {
+    grid-column: 1 / 2;
+    grid-row: 2/4;
+    overflow: scroll;
+}
+
+.report {
+    grid-column: 2 / 4;
+    grid-row: 3/4;  
+}
+
+.chart {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.editOptionsBox {
+    overflow: scroll;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px -10px var(--grayBlue);
+    margin: 2em auto;  
+    height: 40em;
+    width:60%;
+}

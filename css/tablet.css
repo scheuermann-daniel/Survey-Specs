@@ -1,0 +1,25 @@
+.overlay {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    padding: 2em;
+}
+
+.ulNav {
+    list-style-type: none;
+    padding: .5em;
+}
+
+.liNav {
+    list-style-type: none;
+    float: left;
+}
+
+.aNav {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 0 2.5em;
+    font-size: 1.4em;
+}

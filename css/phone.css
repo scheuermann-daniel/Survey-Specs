@@ -1,0 +1,6 @@
+.overlay {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    padding: 0;
+}
