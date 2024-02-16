@@ -1,7 +1,6 @@
 # Survey Specs
 ## A custom surveying tool designed by Daniel Scheuermann. The website allows for the manager to post, edit, and view a variety of custom surveys and receive a computer-generated analysis of the data. The analysis includes charts, a report, etc.
-
-## Languages: PHP, MySQL, HTML, CSS
+### Languages: PHP, MySQL, HTML, CSS
 
 -----
 
